@@ -4,12 +4,17 @@
     margin: 0;
     padding: 0;
 }
+
+h1, h2, h3, h4{
+    color: hsl(243, 87%, 12%);
+    font-family: "Raleway";
+}
 /* header */
 .header{
     display: flex;
     justify-content: space-between;
     padding: 3em 3em 1em;
-  background-color: dodgerblue;
+    
 }
 
 .header .logo{
@@ -28,7 +33,7 @@
     padding: 1em 3em;
     display: flex;
 justify-content: space-between;
-background-color: hotpink;
+
 
 }
 
@@ -73,11 +78,15 @@ width: 32em;
 
 /* LandingTwo */
 .two{
-    padding: 1em 3em;
+    padding: 7em 3em 4em;
     display: flex;
 justify-content: space-between;
-background-color: blueviolet;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+/*  */
 margin-top: 1em;
+
 }
 
 .two-title{
@@ -85,6 +94,7 @@ margin-top: 1em;
     word-spacing: 2px;
     font-size: 2.2em;
     margin-bottom: 1em;
+  
 }
 .two p{
     font-family: "Open Sans";
@@ -93,21 +103,36 @@ margin-top: 1em;
     margin-bottom: 0.6em;
 }
 .two-line{
-    background-color: green;
+    background-color: hsl(170, 45%, 43%);
     height: 1px;
     width: 10em;
+    margin-top: -0.7em;
 
 }
 .two-image img{
     width: 32em;
 }
 
-
 .fylo-link{
     display: flex;
+    color: hsl(170, 45%, 43%);
+    cursor: pointer;
 }
 .two-review{
     background-color: #fff;
+    margin-top: 1em;
+    width: 22em;
+    padding: 1em 0em 1em 1.5em;
+    border-radius: 5px;
+}
+
+.two-review p{
+    font-size: 0.9em;
+    margin-top: 0.6em;
+}
+.two-author{
+    display: flex;
+    margin-top: 1em;
 }
 .two-author img{
     width: 50px;
@@ -115,7 +140,83 @@ margin-top: 1em;
     object-fit: cover;
     border-radius: 50%;
 }
+.author-details{
+    margin-left: 0.6em;
+    margin-top: 0.4em;
+}
+.author-details h4{
+    font-size: 0.8em;
+    font-family: "Raleway";
+}
+.author-details p{
+    font-size: 0.7em;
+    margin-top: 0.2em;
+}
 /* LandingTwo */
+
+/* LandingThree */
+.three{
+    background-color: hsl(238, 22%, 44%)
+    ;
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 3em;
+}
+.three-title{
+    font-size: 1.7em;
+    margin-bottom: 1em;
+    /* color:  hsl(0, 0%, 75%); */
+    color: #fff;
+}
+.three-p{
+    font-family: "Open Sans";
+    color:  hsl(0, 0%, 75%);
+}
+.three-form form{
+    display: flex;
+    flex-direction: column;
+    
+}
+/* LandingThree */
+
+/* Footer */
+.footer{
+    background-color: hsl(243, 87%, 12%); 
+    padding: 3em; 
+    color:  hsl(0, 0%, 75%);
+  
+
+}
+.footer p{
+    font-family: "Open Sans";
+}
+.footer-logo img{
+width: 7em;
+}
+.footer-details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5em;
+}
+
+.footer .tel{
+    display: flex;
+    margin-bottom: 1em;
+}
+.tel p{
+    margin-left: 1em;
+}
+.first-links p, .second-links p{
+    cursor: pointer;
+    margin-bottom: 0.5em;
+}
+
+.first-links p:hover, .second-links p:hover{
+    color: hsl(238, 22%, 44%)
+    ;
+  
+}
+/* Footer */
 
 
 

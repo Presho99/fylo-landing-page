@@ -1,4 +1,5 @@
 import React from 'react'
+import "../assets/index.css"
 
 function LandingThree() {
   return (
