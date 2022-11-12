@@ -6,14 +6,14 @@ import "../assets/index.css"
 
 function LandingTwo() {
     return (
-        <div className='two'>
+        <div className='two' style={{backgroundImage: "url('../images/bg-curve-desktop.svg')"}}>
             <div className='two-text'>
                 <h2 className='two-title'>Stay productive, where you are</h2>
                 <p>Never let location be an issue when accessing your files. Fylo has you <br /> covered for all your file storage needs.</p>
                 <p>Securely share files and folders with friends, family and colleagues for <br /> live collaboration. No email attachments required!</p>
                 <div className='fylo-link'>
                     <p>See how Fylo works</p>
-                    <FontAwesomeIcon icon={faCircleArrowRight} />
+                    <FontAwesomeIcon icon={faCircleArrowRight} style={{marginLeft: "0.3em", fontSize: "0.9em"}}/>
                 </div>
                 <div className='two-line'></div>
                 <div className='two-review'>
