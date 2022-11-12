@@ -1,6 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { faCircleArrowRight, faQuoteLeft } from '@fortawesome/free-solid-svg-icons'
+import "../assets/index.css"
 
 
 function LandingTwo() {
@@ -14,9 +15,10 @@ function LandingTwo() {
                     <p>See how Fylo works</p>
                     <FontAwesomeIcon icon={faCircleArrowRight} />
                 </div>
+                <div className='two-line'></div>
                 <div className='two-review'>
-                    <h3></h3>
-                    <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+                    <h3><FontAwesomeIcon icon={faQuoteLeft}/></h3>
+                    <p>Fylo has improved our team productivity by <br/> an order of magnitude. Since making the <br/> switch our team has become a well-oiled <br/> collaboration machine.</p>
                     <div className='two-author'>
                         <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=400" />
                         <div className='author-details'>
