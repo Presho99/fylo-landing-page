@@ -192,6 +192,7 @@ margin-top: 1em;
 }
 .footer-logo img{
 width: 7em;
+filter: invert(80%) sepia(5%) saturate(15%) hue-rotate(28deg) brightness(96%) contrast(89%);
 }
 .footer-details{
     display: flex;
