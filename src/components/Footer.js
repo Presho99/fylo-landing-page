@@ -1,6 +1,5 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook } from '@fortawesome/free-solid-svg-icons'
+
 import "../assets/index.css"
 
 function Footer() {
@@ -35,8 +34,12 @@ function Footer() {
                 <div className='circle'>
                 
                 </div>
-                <div className='circle'></div>
-                <div className='circle'></div>
+                <div className='circle'>
+                   
+                </div>
+                <div className='circle'>
+                   
+                </div>
             </div>
         </div>
     </div>
