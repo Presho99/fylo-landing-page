@@ -62,6 +62,7 @@ justify-content: space-between;
 .one-form input{
     padding: 0.8em 1em;
     width: 20em;
+    outline: none;
 }
 
 .one-btn{
@@ -72,16 +73,41 @@ justify-content: space-between;
     color: hsl(0, 0%, 75%);
     background-color: hsl(224, 93%, 58%);
     cursor: pointer;
+    margin-top: 1em;
 }
 
 .one-image img{
 width: 32em;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 576px) {
+@media only screen and (min-width: 375px) and (max-width: 876px) {
 .one{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+}
+.one-image img{
+    width: 28em;
+    margin-top: 3em;
+}
+.one-title{
+    text-align: center;
+    font-size: 2em;
+}
+.one-content{
+    text-align: center;
+}
+.one-content br{
+    display: none;
+}
+.one-form{
+    text-align: center;
+}
+.one-form input{
+    width: 100%;
+}
+.one-btn{
+    width: 100%;
+    margin-left: 0;
 }
 }
 /* LandingOne */
@@ -228,7 +254,9 @@ margin-top: 1em;
     }
     .three-p{
         text-align: center;
-     
+    }
+    .three-p br{
+        display: none;
     }
     .three-form{
         
